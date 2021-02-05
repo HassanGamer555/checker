@@ -10,31 +10,31 @@ By HassabGamer555
 
 ### النظام 
 
--  Linux
--  Windows ( CMD ) 
--  Android ( Termux ) 
+Linux
+Windows ( CMD ) 
+Android ( Termux ) 
 
 ### اوامر التنزيل
 
 ```
--  pkg update && pkg upgrade
--  pkg install python -y
--  pkg install python2 -y
--  pkg install git -y
--  git clone https://github.com/HassanGamer555/checker
+pkg update && pkg upgrade
+pkg install python -y
+pkg install python2 -y
+pkg install git -y
+git clone https://github.com/HassanGamer555/checker
 ```
 
 
 ### اوامر التشغيل
 
 ```
-[-] cd checker 
-[-] chmod +x checker.py
-[-] python checker.py
+cd checker 
+chmod +x checker.py
+python checker.py
 ```
 
 ### اوامر الايقاف
 
 ```
-[!] Ctrl + Z
+Ctrl + Z
 ```
