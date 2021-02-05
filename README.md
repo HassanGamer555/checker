@@ -21,7 +21,7 @@ By HassabGamer555
 -  pkg install python -y
 -  pkg install python2 -y
 -  pkg install git -y
--  git clone https://github.com/kanekikon/checker
+-  git clone https://github.com/HassanGamer555/checker
 ```
 
 
