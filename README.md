@@ -1,4 +1,4 @@
-# Instagram username checker
+# Instagram Username Checker Arabic
 
 [![Version](https://img.shields.io/badge/Version-v1.0.0-blue)]()
 [![Python](https://img.shields.io/badge/Python-v%2B-blue)]()
