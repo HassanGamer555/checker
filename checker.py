@@ -1,6 +1,6 @@
 from os import system
 system('pip install requests')
-print('=========\n\n')
+print('============ YouTube : HassanGamer555 ============\n\n')
 print("""      
 ┏━━┓╋╋╋╋╋┏┓
 ┗┫┣┛╋╋╋╋┏┛┗┓
@@ -28,7 +28,7 @@ print("""
 ┃┗━┛┃┏┫┏┓┃┏┓┣┫┏━┛
 ┃┏━┓┃┃┃┏┓┃┗┛┃┃┗━┓
 ┗┛╋┗┻┛┗┛┗┻━━┻┻━━┛
-By HassabGamer555
+𝗕𝘆 𝗛𝗮𝘀𝘀𝗮𝗯𝗚𝗮𝗺𝗲𝗿𝟱𝟱𝟱
                                                 """)
 from time import sleep,time,strftime
 from requests import get,post,session
