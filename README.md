@@ -11,7 +11,9 @@ By HassabGamer555
 ### النظام 
 
 Linux
+
 Windows ( CMD ) 
+
 Android ( Termux ) 
 
 ### اوامر التنزيل
