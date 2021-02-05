@@ -31,7 +31,7 @@ def login():
         global data,session_id,csr
  
         data = {
-                'username':input('[ YouTube:HassanGamer555 ] ﻡﺪﺨﺘﺴﻤﻟﺍ ﻢﺳﺍ ﺐﺘﻛﺍ :-'),
+                'username':input('[ YouTube:HassanGamer555 ] ﻡﺪﺨﺘﺴﻤﻟﺍ ﻢﺳﺍ ﺐﺘﻛﺍ :- '),
                 'password':input('[ YouTube:HassanGamer555 ] ﺭﻭﺮﻤﻟﺍ ﺔﻤﻠﻛ ﺐﺘﻛﺍ :- '),
                 'device_id':str( uuid4() )
         }
@@ -53,7 +53,7 @@ def login():
 login()             
  
  
-num = int(input('[ YouTube:HassanGamer555 ] ﺔﺑﺮﺠﺘﻠﻟ ﻦﻴﻣﺪﺨﺘﺴﻤﻟﺍ ﺀﺎﻤﺳﺍ ﺩﺪﻋ ﺪﻳﺮﺗ ﻢﻛ ? (1-400): '))
+num = int(input('[ YouTube:HassanGamer555 ] ﺔﺑﺮﺠﺘﻠﻟ ﻦﻴﻣﺪﺨﺘﺴﻤﻟﺍ ﺀﺎﻤﺳﺍ ﺩﺪﻋ ﺪﻳﺮﺗ ﻢﻛ ? (1-400) : '))
  
 print ('\n------------ﺔﺑﺮﺠﺘﻟﺍ ﻱﺭﺎﺟ------------\n') 
 
@@ -62,11 +62,11 @@ for _ in range(num):
         source = get(f'https://www.instagram.com/{user}',headers = {'x-csrftoken':csr},cookies={'sessionid':session_id}).text
  
         if 'href="/static/bundles/es6/HttpErrorPage.js' in source:
-                print(f'✅ {user}: ﺮﻓﻮﺘﻣ')
+                print(f'✅ {user} : ﺮﻓﻮﺘﻣ')
                 Available= open('Available.txt','a')
                 Available.write(user+'\n')
                 Available.close()
         else:
-                print(f'❌ {user}: ﺮﻓﻮﺘﻣ ﺮﻴﻏ')
+                print(f'❌ {user} : ﺮﻓﻮﺘﻣ ﺮﻴﻏ')
  
 input('✅ ﻞﻤﺘﻛﺍ!\nﻂﻐﺿﺍ Enter ﻕﻼﻏﻼﻟ..')
