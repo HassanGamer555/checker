@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/badge/Version-v1.0.0-blue)]()
 [![Python](https://img.shields.io/badge/Python-v%2B-blue)]()
-[![YouTube](https://img.shields.io/badge/YouTube-red)](https://youtube.com/c/HassanGamer555)
+[![YouTube](https://img.shields.io/badge/Youtube-red)](https://youtube.com/c/HassanGamer555)
 
 
 اداة بسيطة باللغة العربية تسخدم لاستخراج اسماء مستخدمين رباعية للانستكرام
