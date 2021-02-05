@@ -2,7 +2,6 @@ from os import system
 system('pip install requests')
 print('=========\n\n')
 print("""      
-
 ┏━━┓╋╋╋╋╋┏┓
 ┗┫┣┛╋╋╋╋┏┛┗┓
 ╋┃┃┏━┓┏━┻┓┏╋━━┳━━┳━┳━━┳┓┏┓
