@@ -2,9 +2,9 @@ from os import system
 system('pip install requests')
 print('=========\n\n')
 print("""
-           #----------------------------------------------------------#
+            #---------------------------------------------------------#
            
-                      # --------  Checker ------- #
+                       # --------  Username Checker ------- #
                          
                 -- By : HassanGamer555 - YouTube : Hassan Gamer 555 --
               
@@ -31,8 +31,8 @@ def login():
         global data,session_id,csr
  
         data = {
-                'username':input('[ HassanGamer555 ] اكتب اسم المستخدم :-'),
-                'password':input('[ HassanGamer555 ] اكتب كلملة المرور :- '),
+                'username':input('[ YouTube:HassanGamer555 ] ﻡﺪﺨﺘﺴﻤﻟﺍ ﻢﺳﺍ ﺐﺘﻛﺍ :-'),
+                'password':input('[ YouTube:HassanGamer555 ] ﺭﻭﺮﻤﻟﺍ ﺔﻤﻠﻛ ﺐﺘﻛﺍ :- '),
                 'device_id':str( uuid4() )
         }
  
@@ -46,27 +46,27 @@ def login():
  
         else:
  
-                if input('❌ حاول مجدداً ? y/n : ') == 'y':
+                if input('❌  ًﺍﺩﺪﺠﻣ ﻝﻭﺎﺣ ? y/n : ') == 'y':
                         print(log)
                 login()
  
 login()             
  
  
-num = int(input('[ HassanGamer555 ] كم تريد عدد اسماء المستخدمين للتجربة ? (1-400): '))
+num = int(input('[ YouTube:HassanGamer555 ] ﺔﺑﺮﺠﺘﻠﻟ ﻦﻴﻣﺪﺨﺘﺴﻤﻟﺍ ﺀﺎﻤﺳﺍ ﺩﺪﻋ ﺪﻳﺮﺗ ﻢﻛ ? (1-400): '))
  
-print ('\n------------جاري التجربة------------\n') 
+print ('\n------------ﺔﺑﺮﺠﺘﻟﺍ ﻱﺭﺎﺟ------------\n') 
 
 for _ in range(num):
         user = get_random_acc()
         source = get(f'https://www.instagram.com/{user}',headers = {'x-csrftoken':csr},cookies={'sessionid':session_id}).text
  
         if 'href="/static/bundles/es6/HttpErrorPage.js' in source:
-                print(f'✅ {user}: متوفر')
+                print(f'✅ {user}: ﺮﻓﻮﺘﻣ')
                 Available= open('Available.txt','a')
                 Available.write(user+'\n')
                 Available.close()
         else:
-                print(f'❌ {user}: غير متوفر')
+                print(f'❌ {user}: ﺮﻓﻮﺘﻣ ﺮﻴﻏ')
  
-input('✅ اكتمل!\nاضغط Enter للاغلاق.. ')
+input('✅ ﻞﻤﺘﻛﺍ!\nﻂﻐﺿﺍ Enter ﻕﻼﻏﻼﻟ.. ')
