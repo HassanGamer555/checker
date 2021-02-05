@@ -62,14 +62,11 @@ for _ in range(num):
         source = get(f'https://www.instagram.com/{user}',headers = {'x-csrftoken':csr},cookies={'sessionid':session_id}).text
  
         if 'href="/static/bundles/es6/HttpErrorPage.js' in source:
-                print(f'✅ {user}: ﺮﻓﻮﺘﻣ
-                      ---------------------')
+                print(f'✅ {user}: ﺮﻓﻮﺘﻣ')
                 Available= open('Available.txt','a')
                 Available.write(user+'\n')
                 Available.close()
         else:
-                print(f'❌ {user}: ﺮﻓﻮﺘﻣ ﺮﻴﻏ
-                      ---------------------')
+                print(f'❌ {user}: ﺮﻓﻮﺘﻣ ﺮﻴﻏ')
  
-input('✅ ﻞﻤﺘﻛﺍ!\nﻂﻐﺿﺍ Enter ﻕﻼﻏﻼﻟ.. 
-      ----------------------------')
+input('✅ ﻞﻤﺘﻛﺍ!\nﻂﻐﺿﺍ Enter ﻕﻼﻏﻼﻟ..')
