@@ -10,16 +10,16 @@
 ### By : HassabGamer555
 
 ```
-YouTube: https://youtube.com/c/HassanGamer555
+YouTube : https://youtube.com/c/HassanGamer555
 ```
 
-### النظام 
+### الانظمة التي تعمل عليها
 
-Linux
+- Linux
 
-Windows ( CMD ) 
+- Windows ( CMD ) 
 
-Android ( Termux ) 
+- Android ( Termux ) 
 
 ### اوامر التنزيل
 
